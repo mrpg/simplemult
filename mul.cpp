@@ -1,7 +1,10 @@
 #include <iostream>
 #include <gmpxx.h>
 
-// link with -lgmpxx -lgmp
+// compile command:
+// clang mul.cpp -lgmpxx -lgmp -O3 -o mul
+// -- or --
+// g++ mul.cpp -lgmpxx -lgmp -O3 -o mul
 
 using namespace std;
 
